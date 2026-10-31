@@ -10,6 +10,10 @@ __pycache__/
 # Scratch scripts
 scratch/
 
+# Project python scripts (kept local; setup_skills.py stays tracked for bootstrap)
+python_scripts/*
+!python_scripts/setup_skills.py
+
 # Local assets (background, logo)
 assets/
 
