@@ -1,0 +1,37 @@
+# Secrets / local config
+.env
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Scratch scripts
+scratch/
+
+# Local assets (background, logo)
+assets/
+
+# Power BI projects (kept local)
+development/
+
+# Binary report / document files
+*.pbix
+*.doc
+*.docx
+
+# Microsoft Skills for Fabric (cloned by python_scripts/setup_skills.py)
+skills-for-fabric/
+
+# Power BI local artifacts
+**/.pbi/
+**/cache.abf
+**/localSettings.json
+*.pbix.bak
+development/**/backups/
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
